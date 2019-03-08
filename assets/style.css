@@ -1,18 +1,60 @@
-#box {
-    box-sizing: box;
-    margin: auto;
-    width: 960;
+* {
+   box-sizing: border-box; 
 }
 
-
-header {
-    font: #777777;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #ffffff;
+    background-image: url('assets/images/cross-lines.png');
+    background-repeat: repeat;
 }
 
-ul li {
-    list-style: none;
+.header {
+    width: 100%;
+    height: 60px;
+    display: block;
+    font: #ddc4c4; 
+    background-color: #010101;
+    border-bottom: #cccccc;
+    border-bottom: 3px;
+    
+ }
+
+.nav {
     float: right;
+    height: 100%;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 15px
+}
+
+.namebox {
+    width: 200px;
+    height: 60px;
+    display: block;
+    margin: 0;
+    background-color: #4aaaa5;
+    margin: auto;
+    position: absolute;
+    left: 300px;
+
+}
+
+
+.myname h1 { 
+    padding: 15px;   
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+    float: left
+}
+
+nav {
+    float: right;
+    clear: both;
 }
