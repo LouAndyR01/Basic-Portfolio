@@ -1,0 +1,18 @@
+#box {
+    box-sizing: box;
+    margin: auto;
+    width: 960;
+}
+
+
+header {
+    font: #777777;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    float: right;
+}
