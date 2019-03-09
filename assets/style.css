@@ -16,12 +16,18 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     Background: #ffffff;
-    border-bottom: 3px solid #ccc;
+    border-bottom: 2px solid #ccc;  
 }
 
 .wrapper {
     width: 960px;
     margin: 0 auto;
+}
+
+.headshot17 {
+    width: 200px;
+    float: left;
+    margin: 0 15px 15px 0;
 }
 
 header h1 {
@@ -80,8 +86,8 @@ footer {
     border-top: 5px solid #4aaaa5 ;    
     color: #ccc;
     text-align: center;
-    padding: 40px;
-    margin-top: 30px;
+    padding: 50px;
+    margin-top: 40px;
 }
 
 form label {
@@ -106,10 +112,9 @@ textarea {
 .wrapper { 
     width: 960px;
     margin: auto 0;
-
 }
 
-.inline-img{
+.inline-img { 
     float: left;
     margin: 0 15px 15px 0
 }
@@ -117,9 +122,9 @@ textarea {
 .portfolio-pics {
     position: relative;
     margin-bottom: 20px;
-    width: 45%;
+    width: 25%;
     float: left;
-    height: 250px
+    height: 150px
 }
 **psuedo code**
 .portfolio-pics:nth-of-type(even) {
@@ -130,16 +135,43 @@ textarea {
     background: #4aaaa5;
     color: #fff;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     width: 100%;
 }
 
-#portfolio1{
-    background: ur;
+portfolio1{
+    background: url('../assets/images/technics-q-c-200-200-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+#portfolio1{
+    background: url('../assets/images/sports-q-c-200-200-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+#portfolio1{
+    background: url('../assets/images/nighlife-q-c-200-200-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+#portfolio1{
+    background: url('../assets/images/nature-q-c-200-200-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio1{
+    background: url('../assets/images/city-q-c-200-200-9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio1{
+    background: url('../assets/images/animals-q-c-200-200-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .clearfix { 
     display: block;
